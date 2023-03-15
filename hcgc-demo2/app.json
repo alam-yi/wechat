@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/other/other"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/file/southeast1.jpg",
+      "selectedIconPath": "/file/southeast2.jpg"
+    },
+    {
+      "pagePath": "pages/other/other",
+      "text": "我",
+      "iconPath": "/file/southeast3.jpg",
+      "selectedIconPath": "/file/southeast4.jpg"
+    }]
+  }
+}
